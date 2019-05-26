@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- 합쳐지고 최소화된 최신 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- 부가적인 테마 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+    <title>한무릎 - 랜덤 스터디 매칭</title>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&amp;subset=korean" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script&amp;subset=korean" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sunflower:300&amp;subset=korean" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gaegu&display=swap&subset=korean" rel="stylesheet">
+
+    <style>
+
+    h1 {
+        font-family: 'Yeon Sung', cursive;
+        font-size: 60px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .h2_1 {
+        font-family: 'Nanum Brush Script', cursive;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .h2_2 {
+        font-family: 'Nanum Brush Script', cursive;
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+
+    }
+
+    .h2_3 {
+        font-family: 'Yeon Sung', cursive;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .h2_4 {
+        font-family: 'Yeon Sung', cursive;
+        font-size: 20px;
+        text-align: center;
+    }
+    .h2_5{
+    font-family: 'Gaegu', cursive;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 550;
+
+    }
+    input {
+        text-align: center;
+        font-family: 'Sunflower', sans-serif;
+    }
+
+    .study_1 {
+      font-family: 'Yeon Sung', cursive;
+      font-size: 30px;
+      text-align: center;
+    }
+    .study_name{
+      width:500px;
+      font-size: 20px;
+    }
+    .study_2 {
+      font-family: 'Yeon Sung', cursive;
+      font-size: 30px;
+      text-align: center;
+    }
+
+    .my-box { border:2px dashed; border-radius: 20px; padding:70px; border-color: #819FF7;}
+
+    .my-box2{
+      border:2px dotted;;
+      border-radius: 20px;
+      padding:20px;
+      border-color:#F5A9BC;
+    }
+    .introduce{
+      font-family: 'Nanum Brush Script', cursive;
+    }
+    .btn{
+      font-family: 'Sunflower', sans-serif;
+      font-size: 20px;
+      text-align: center;
+      float:right;
+    }
+
+    .btn-group{
+      /* float:right; */
+      margin: auto;
+    }
+
+    .box{
+      font-family: 'Sunflower', sans-serif;
+      font-size: 20px;
+      text-align: center;
+      position:relative;
+      left:400px;
+      width: 200px;
+      height: 40px;
+    }
+    .box2{
+      font-family: 'Sunflower', sans-serif;
+      font-size: 20px;
+      text-align: center;
+      position:relative;
+      left:400px;
+      width: 200px;
+      height: 40px;
+    }
+
+    body{
+      background-color:lavender;
+    }
+
+    textarea{
+      /* text-align: center; */
+    }
+
+    .textareaunder{
+      font-size:20px;
+      font-family: 'Sunflower', sans-serif;
+      font-weight: bold;
+      float:right;
+    }
+
+    .container{
+      font-family: 'Sunflower', sans-serif;
+      font-size: 20px;
+    }
+
+    .list-group{
+      block-size: 50px;
+      display: inline-block;
+      width: 200px;
+      height: 100%;
+      position:relative;
+      left:400px;
+      text-align: center;
+
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <br>
+
+    <ul class="nav nav-tabs">
+            <li role="presentation" class="active"><a href="home.html">Home</a></li>
+            <li role="presentation"><a href="">회원가입</a></li>
+            <li role="presentation"><a href="">빠른입장</a></li>
+          </ul>
+
+    <h1>한무릎</h1>
+    <p class="h2_1">-한동안 착실히 하는 공부</p> <br><br>
+
+    <form action="전송받을 대상">
+
+            ID : <input type="text" name="myid">
+            PW : <input type="password" name="mypw"> <br><br>
+
+            <!-- <div class="form-group">
+              <label for="exampleInputEmail1">이메일 주소</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="이메일을 입력하세요">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">암호</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="암호">
+            </div> -->
+            <!-- <div class="form-group">
+              <label for="exampleInputFile">파일 업로드</label>
+              <input type="file" id="exampleInputFile">
+              <p class="help-block">여기에 블록레벨 도움말 예제</p>
+            </div> -->
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> 로그인 상태 유지
+              </label>
+            </div>
+            <input type="submit" class="btn btn-success" value="로그인">
+          </form> <br>
+  
+    <br><br>
+    
+    <div class="my-box2">
+      <div class="introduce">
+        <p class="h2_5">안녕하세요 한무릎 웹페이지 개발자 4학년 이민지입니다.<br> 
+          현재 멋쟁이 사자처럼 7기 충남대에서 활동하고 있으며 열심히 배우고 있는데 많이 어렵네요.<br>
+          그래도 Html과 CSS는 재밌네요:-)<br>
+          저는 노래 듣거나 여러 페스티벌 구경하는 것을 좋아합니다.<br>
+          추후에 더 좋은 서비스로 찾아뵐테니 한무릎 많은 이용해주세요!<br>
+        </p>
+      </div>
+    </div>
+    <br><br>
+    
+    <form action = "전송받을 대상">
+        <p class="h2_2">스터디룸 개설하기</p><br>
+        <p class="h2_4">-스터디명, 카테고리, 인원 수, 스터디 방식 등을 선택 후 개설하기 버튼을 클릭하면 랜덤으로 스터디원 매칭이 되는 편리한 웹사이트!<br>
+                        -형식적인 스터디 모임이 아닌 독서실이나 집에서 혼자 공부해야 하는데 혼자서는 집중이 잘 되지 않을 때 누구나 이용가능한 웹사이트!</p> <br><br>
+        <div class="my-box">
+        <p class="study_1">스터디명 : <input type="text" class="study_name" name="board" placeholder="당신의 하루를 응원합니다!"></p><br>
+
+        <p class="study_2"> 카테고리</p></span>
+        <div id="list-example" class="list-group">
+          <a class="list-group-item list-group-item-action" href="#list-item-1">중등</a>
+          <a class="list-group-item list-group-item-action" href="#list-item-2">고등</a>
+          <a class="list-group-item list-group-item-action" href="#list-item-3">성인</a>
+        </div>
+
+        <br>
+
+        <!-- 카테고리
+        <select>
+            <option value="middle">중등</option>
+            <option value="high">고등</option>
+            <option value="normal">성인</option>
+        </select> <br> -->
+        
+        <p class="h2_3">인원 수</p><br>
+        <select class="box"> 
+            <option value="solo">혼자</option>
+            <option value="two">2인</option>
+            <option value="three">3인</option>
+        </select><br>
+
+        <p class="h2_3">방식</p><br>
+        <select class="box2">
+            <option value="mission">공부인증(미션)</option>
+            <option value="random">자유(랜덤)</option>
+        </select> <br><br>
+
+        <p class="h2_3">스터디룸 개설 시 필요한 요청 사항(ex. 1회 지각 시 벌금 1000원...)</p>
+        <textarea class=textarea cols="100" rows="10"></textarea> <br>      
+        <input type = "submit" class="textareaunder" value="개설하기">
+      </div>
+    </form> <br>
+    
+</div>
+</body>
+</html>
